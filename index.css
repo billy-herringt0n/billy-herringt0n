@@ -52,25 +52,74 @@ li img {
 }
 .text3 {
     display: flex;
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(238, 238, 238);
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
+    align-items: center;
+    flex-direction: row;    
+}
+.color {
+    background-color:rgb(238, 238, 238);
+}
+.xz h1{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.xz {
+    margin-top: 10%;
+}
+.xz p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    text-align: center;
+}
+.ct-text {
+    background-color: #ffffff;
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+    position: relative;
+    left: 18%;
+    top: -30%;
+}
+.ct-text2 {
+    background-color: #ffffff;
+    width: 10000px;
+    height: 450px;
+    text-align: center;
+    margin-top: 58%;
+    position: relative;
+    right: 27%;
+    top: -30%;
 }
 .text3 h1 {
-    margin-left: 50%;
     text-align: center;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 40px;
     font-weight: 400;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 200px;  
 }
 #complect {
-    width: 300px;
-    height: 300px;
+    width: 10000px;
+    height: 450px;
+    margin-left: 10%;
     position: relative;
-    top: 500px;
-    left: 210px;
+    left: 18%;
+    top: -30%;
+}
+#complect2 {
+    width: 400px;
+    height: 450px;
+    margin-top: 58%;
+    position: relative;
+    right: 27%;
+    top: -30%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
 }
 .text21 {
     display: flex;
@@ -129,7 +178,7 @@ li img {
 .footer {
     display: flex;
     position: relative;
-    bottom: -10px;
+    bottom: -100px;
     left: -10px;
     padding: 10px;
     justify-content: center;
