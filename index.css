@@ -5,6 +5,72 @@ body {
 html {
     scroll-behavior:smooth;
 }
+.xz {
+    text-align: center;
+    margin-top: 10%;
+}
+.column0 {
+    margin-left: 13%;
+    margin-top: 8%;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+}
+.ct-text4 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 500;
+    width: 800px;
+    margin-left: 12%;
+    margin-top: 5%;
+    border-top: 4px solid rgb(3, 178, 208);
+    border-bottom: 4px solid rgb(3, 178, 208);
+    border-radius: 2px;
+    margin-bottom: 20%;
+}
+.column img {
+    width: 550px;
+    height: 350px;
+}
+.ct-text {
+    width: 550px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.column2 {
+    display: flex;
+    flex-direction: row;
+}
+.column2 img {
+    width: 550px;
+    height: 350px;
+}
+.ct-text2 {
+    width: 550px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+}
+.ct-text2 h2 {
+    margin-top: 10%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.xz h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.xz p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
 .krug {
     position: fixed;
     right: 3%;
@@ -19,8 +85,8 @@ html {
 .strelka2 {
     width: 30px;
     height: 30px;
-    border-left: 5px solid rgb(162, 0, 255);
-    border-bottom: 5px solid black;
+    border-left: 5px solid rgb(204, 219, 2);
+    border-bottom: 5px solid rgb(227, 243, 0);
     position: absolute;
     top: 35%;
     right: 25%;
@@ -43,6 +109,163 @@ html {
     font-size: 25px;
     font-family: 'Poiret One', cursive;
 }
+.button h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.button {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#magic a {
+    text-decoration: none;
+    color: #ffffff;
+}
+button {
+    color: #ffffff;
+    background-color: rgb(35, 35, 35);
+    border: 3px solid rgb(141, 141, 141);
+    border-radius: 18px;
+    cursor: pointer;
+    position: relative;
+    padding: 22px 46px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+button:hover {
+    z-index: 1;
+    border-color: transparent;
+    background: linear-gradient(
+        90deg,
+        #f9d923,
+        #00a19d,
+        #0c87b7,
+        #cb49ff,
+        #ff6666,
+        #f9d923
+    );
+    background-size: 400%;
+    box-shadow: 0 0 15px rgb(2, 4, 24);
+    animation: glow 12s linear forwards;
+}
+@keyframes glow {
+
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: inherit;
+    filter: blur(36px);
+    opacity: 0;
+    transition: .4s ease-out;
+}
+
+button:hover::before {
+    opacity: 1; 
+    z-index: -1;
+}
+#cp {
+    padding: 5px;
+    border-bottom: 4px solid palegoldenrod;
+}
+.proc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.proc p {
+    display: block;
+    text-align: right;
+    width: 600px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+.proc h1 {
+    display: block;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.proc img {
+    width: 700px;
+    height: 700px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+#gpu {
+    margin-top: 10%;
+    padding: 5px;
+    border-bottom: 4px solid rgb(255, 213, 122);
+}
+.nvidia {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 180vh;
+}
+.nvidia p {
+    display: block;
+    width: 600px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+.nvidia h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.nvidia img {
+    width: 700px;
+    height: 700px;
+    margin-left: 0%;
+    margin-top: 3%;
+}
+.nvidia-txt {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.nvidia-txt0 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+}
+.proc-txt0 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+}
+.proc-txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding: 15px;
+}
 li img {
     width: 40px;
 }
@@ -60,62 +283,10 @@ li img {
 }
 .color {
     background-color:rgb(238, 238, 238);
+    height: 250vh;
 }
-.xz h1{
-    text-align: center;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 45px;
-    font-weight: 500;
-}
-.xz {
-    margin-top: 10%;
-}
-.xz p {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
-    text-align: center;
-}
-.ct-text {
-    background-color: #ffffff;
-    width: 1000px;
-    height: 450px;
-    text-align: center;
-    position: relative;
-    left: 18%;
-    top: -30%;
-}
-.ct-text2 {
-    background-color: #ffffff;
-    width: 10000px;
-    height: 450px;
-    text-align: center;
-    margin-top: 58%;
-    position: relative;
-    right: 27%;
-    top: -30%;
-}
-.text3 h1 {
-    text-align: center;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    margin-top: 200px;  
-}
-#complect {
-    width: 10000px;
-    height: 450px;
-    margin-left: 10%;
-    position: relative;
-    left: 18%;
-    top: -30%;
-}
-#complect2 {
-    width: 400px;
-    height: 450px;
-    margin-top: 58%;
-    position: relative;
-    right: 27%;
-    top: -30%;
+.ct-text3 {
+    font-size: 20px;
 }
 .column {
     display: flex;
@@ -173,14 +344,18 @@ li img {
     width: 745px;
     height: 200px;
 }
-
+.footer p {
+    text-align: center;
+}
 
 .footer {
     display: flex;
     position: relative;
-    bottom: -100px;
+    margin-top: 300%;
+    bottom: -10px;
     left: -10px;
     padding: 10px;
+    text-align: center;
     justify-content: center;
     width: 100vw;
     background-color: black;
