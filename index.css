@@ -13,8 +13,9 @@ html {
     margin-top: 10%;
 }
 .column0 {
-    margin-left: 13%;
     margin-top: 8%;
+    justify-content: center;
+    align-items: center;
 }
 .column {
     display: flex;
@@ -22,11 +23,11 @@ html {
 }
 .ct-text4 {
     text-align: center;
+    margin-left: 34%;
     font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     font-weight: 500;
     width: 800px;
-    margin-left: 12%;
     margin-top: 5%;
     border-top: 4px solid rgb(3, 178, 208);
     border-bottom: 4px solid rgb(3, 178, 208);
@@ -83,7 +84,7 @@ html {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
 }
 .strelka2 {
     width: 30px;
@@ -195,6 +196,7 @@ button:hover::before {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 5%;
 }
 .proc p {
     display: block;
@@ -226,7 +228,7 @@ button:hover::before {
     align-items: center;
     flex-direction: column;
     background-color: rgb(238, 238, 238);
-    height: 180vh;
+    height: 120vh;
 }
 .nvidia p {
     display: block;
@@ -287,7 +289,7 @@ li img {
 }
 .color {
     background-color:rgb(238, 238, 238);
-    height: 250vh;
+    height: 160vh;
     width: 100vw;
 }
 .ct-text3 {
@@ -296,10 +298,12 @@ li img {
 .column {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .text21 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .text2 p {
     text-align: center;
@@ -356,7 +360,7 @@ li img {
 .footer {
     display: flex;
     position: relative;
-    margin-top: 290%;
+    margin-top: -1%;
     bottom: -10px;
     left: -10px;
     padding: 10px;
@@ -394,19 +398,23 @@ li img {
     margin-top: 10%;
     font-size: 60px;
     font-weight: 400;
-    height: 70vh;
-    z-index: -1;
+    height: 40vh;
+    z-index: 1;
     text-align: center;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 .cont-txt {
     font-size: 40px;
     font-weight: 500;
-    margin-top: -5%;
+    margin-top: -2%;
 }
 .icons img {
     width: 50px;
     height: 50px;
+}
+.icons a {
+    cursor: pointer;
+    text-decoration: underline;
 }
 #xz2 {
     font-size: 30px;
@@ -453,7 +461,6 @@ a {
 }
 #img1 {
     width: 400px;
-    margin-left: 200px;
     margin-top: 200px;
     margin-bottom: 100px;
 }
